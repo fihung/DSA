@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+//// map
+int main()
+{
+    int cnt = 0 ;
+    int t; cin>>t;
+    while(t--)
+    {
+        map<int, int> ma;
+        int n, m; cin>>n>>; int arr1[n], arr2[m];
+        for(int &x:arr1) cin>>x;
+        for(int &x:arr2){
+            cin>>x;
+            ++ma[x];
+        }
+        for(int x:ma)
+        if( ma.find(x) == ma.end() ) 
+        ++cnt;
+    }
+}
+//// set 
+
+
+// int main()
+// {
+
+//     set<int> s;
+//     int t; cin>>t;
+//     while(t--)
+//     {
+//         int cnt = 0 ;
+//         int n; int m; cin>>n>>m;
+//         int arr1[n], arr2[m];
+//         for(int &x:arr1) cin>>x;
+//         for(int &x:arr2){
+//             cin>>x;
+//             s.insert(x);
+//         }
+//         //mang 1 = arr1; mang 2 = set<int> s;
+//         for(int x:arr1)
+//         if( s.find(x)  == s.end() )
+//         ++cnt;
+//         cout<<cnt;
+//     }
+// }
+
