@@ -13,6 +13,9 @@
 //     s.insert(4);
 //     s.insert(2);
 //     s.insert(3);
+//     set<int> ::iterator i;
+//     for(i = s.begin(); i != s.end(); i++)
+//         cout<<*i<<" ";
 //     cout<<s.size();
 // }
 // =====> insert giá trị giống nhau thì cái giống cho count out khỏi set;
