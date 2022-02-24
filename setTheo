@@ -1,0 +1,31 @@
+// set: taphop
+// -tat ca cac phan tu trong set deu khac nhau, khong chap nhan cac phan tu
+// co gia tri trung.
+// -set là một tập hợp có thứ tự.
+
+// set<kieudulieu> ten_set;
+// -size(): trả về số lượng phần tử trong set;
+// -insert():  = push_back nhưng chỉ là thêm vào, không đẩy vào sau;
+// -find(): tìm kiếm
+
+// int main(){
+//     set <int> s;
+//     s.insert(4);
+//     s.insert(2);
+//     s.insert(3);
+//     cout<<s.size();
+// }
+// =====> insert giá trị giống nhau thì cái giống cho count out khỏi set;
+
+
+// PURPOSE: đếm số lượng số nguyên khác nhau trong mảng
+// EX: set<int> s;
+// int n; cin>>n;
+// for(int i = 0 ;i<n; i++){
+//     int x; cin>>x;
+//     s.insert(x);
+// }
+// cout<<s.size()<<endl;
+
+// với sort = O(logn);
+
