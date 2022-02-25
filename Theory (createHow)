@@ -1,0 +1,26 @@
+//tao mang linkedlist
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class Node {
+public:
+    int data;
+    Node* next;
+};
+int main()
+{
+    Node* head = NULL; //3242 head; 4r343 second; 433qw2 third;
+    Node* second = NULL;
+    Node* third = NULL;        
+    head = new Node(); head -> []; second -> []; third -> [];
+    second = new Node();
+    third = new Node();
+    head -> data = 1;
+    head -> next = second;
+    second -> data = 2;
+    second -> next = third;
+    third -> data = 3;
+    third -> next = NULL;
+    
+}
