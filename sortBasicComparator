@@ -7,6 +7,7 @@ bool cmp(int a, int b)
        if (a>b)
     return true;
     return false;
+    //or return a>b; vi a>b neu true thi tiep tuc; false no se swap;
     
 }
 int main()
