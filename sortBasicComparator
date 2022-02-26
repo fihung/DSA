@@ -1,4 +1,5 @@
 ***giong nhu mot ham` check, neu kiem tra no dung = return true thi tiep tuc, return false la swap;
+****stable_sort(a, a+n, cmp) cung tieu chi thi trat tu nhu input;
 #include <bits/stdc++.h>
 
 using namespace std;
