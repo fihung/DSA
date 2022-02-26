@@ -17,3 +17,19 @@ int main()
     for(int x:a)
     cout<<x<<" ";
 }
+// string comparison
+// #include <bits/stdc++.h>
+// using namespace std;
+// bool cmp(string  a, string b)
+// {
+///        return strlen(a) < strlen(b);// these are characters
+///        //or return a.length() < b.length(); // these are strings
+// }
+// int main()
+// {
+//     int a[] = {4, 3, 5 ,1,2,4};
+//     int n = sizeof(a) / sizeof(a[0]);
+//     sort(a, a+n, cmp);
+//     for(int x:a)
+//     cout<<x<<" ";
+// }
