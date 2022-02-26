@@ -10,6 +10,13 @@ bool cmp(int a, int b)
     //or return a>b; vi a>b neu true thi tiep tuc; false no se swap;
     
 }
+bool cmp(int a, int b)
+{
+      if( a.length() < b.length() )
+          return true;
+      return false;
+      if (a<b)
+      return a<b;
 int main()
 {
     int a[] = {4, 3, 5 ,1,2,4};
