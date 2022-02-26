@@ -1,5 +1,4 @@
-***a dung truoc b, return true;
-***a dung sau b, return false;
+***giong nhu mot ham` check, neu kiem tra no dung = return true thi tiep tuc, return false la swap;
 #include <bits/stdc++.h>
 
 using namespace std;
