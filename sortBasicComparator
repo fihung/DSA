@@ -1,12 +1,11 @@
-***a dung truoc b, return a<b;
-***a dung sau b, return a>b;
+***a dung truoc b, return true;
+***a dung sau b, return false;
 #include <bits/stdc++.h>
 
 using namespace std;
 bool cmp(int a, int b)
 {
-    return a>b;
-    //or if (a>b)
+       if (a>b)
     return true;
     return false;
     
@@ -24,8 +23,9 @@ int main()
 // using namespace std;
 // bool cmp(string  a, string b)
 // {
-///        return strlen(a) < strlen(b);// these are characters
-///        //or return a.length() < b.length(); // these are strings
+///      if (a.length() < b.length)
+///          return true;
+//       return false;
 // }
 // int main()
 // {
