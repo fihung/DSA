@@ -1,3 +1,5 @@
+***a dung truoc b, return a<b;
+***a dung sau b, return a>b;
 #include <bits/stdc++.h>
 
 using namespace std;
