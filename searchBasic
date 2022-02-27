@@ -1,0 +1,36 @@
+binary_search(a, a+n, x);
+//or binary_search(a.begin(), a.end(), x);
+//or binary_search(a.begin()+n, a.end()+(n-1), x);
+=====> neu co: return true; return false;
+#include <bits/stdc++.h>
+
+using namespace std;
+
+bool binarySearch(int arr[], int n, int x)
+{
+    int l = 0 ; int r = n - 1;
+    while (l<=r) {
+        int m = (r+l)/2;
+        if (arr[m] == x)
+          return true;
+        else if (arr[m] < x) {
+                 l = m+1;
+        }
+        else {
+                r = m -1;
+
+        }
+    }
+    return false;
+}
+int main()
+{
+    int arr[] = {1, 4, 9, 5, 6, 0};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    sort(arr, arr+n);
+    int x; cin >>x;
+    if(binarySearch(arr,n,x))
+        cout<<"yes";
+    else
+        cout<<"mnahh";
+}
