@@ -29,7 +29,7 @@ int main()
     int n = sizeof(arr) / sizeof(arr[0]);
     sort(arr, arr+n);
     int x; cin >>x;
-    if(binarySearch(arr,n,x))
+    if(binarySearch(arr, arr + n ,x))
         cout<<"yes";
     else
         cout<<"mnahh";
